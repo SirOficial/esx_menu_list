@@ -13,46 +13,29 @@
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	width           : 350px;
-    height          : 135px;
-	overflow        : hidden;
-	text-decoration: none;
 	transform: translate(-50%, -50%);
 	box-shadow: 0px 0px 50px 0px #000;
-	border-style: none;
 	overflow-y: auto;
-	opacity:0.75;
+	max-height: 90%;
 }
 
 .menu button {
-	margin-top: 5px;
 	font-family: bankgothic;
-	color:white;
-	text-decoration: none;
-	border-style: none;
-	background-color:#000000;
-	border-top: 1px solid #595959;
 }
 
 .menu>table {
 	border: 1px transparent;
 	border-spacing: 0;
 	min-width: 400px;
-	background-color: #000000;
-	color: white;
-	border-style: none;
+	background-color: #FFF;
 }
 
 .menu>table>thead {
-	background-image:url("https://cdn.discordapp.com/attachments/502938190739537950/524356035926949892/ezgif.com-gif-maker.gif");
-	opacity:1;
+	background-color: #506be6;
 	text-align: center;
-	height: 145px;
-	width: 350px;
-	color: white;
-	border-style: none;
-	line-height: 80px;
-	color: #FFFFFF;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
 }
 
 .menu td {
@@ -65,5 +48,5 @@
 }
 
 .menu tbody tr:nth-child(odd) {
-	background: #000000
+	background: #FFF
 }
